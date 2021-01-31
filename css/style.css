@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.todo {
+    background: whitesmoke;
+    opacity: 90%;
+       
+    
+}
+
+.todo:hover {
+    box-shadow: 5px 5px 10px 2px #333;
+}
+
+.todo:active {
+    box-shadow: 5px 5px 6px 0 #333;
+}
+
+.completed p {
+    text-decoration: line-through;
+    color: lightslategrey;
+}
+
+.todo p {
+      cursor: pointer;
+}
+
+
+.card{
+    margin: auto;
+    width: 95%;
+}
